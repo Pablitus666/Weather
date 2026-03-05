@@ -42,7 +42,8 @@ El proyecto ha sido diseñado bajo principios de ingeniería moderna:
 
     * Cliente httpx.AsyncClient persistente (connection pooling)
     * Timeouts optimizados para entornos Windows
-    * Manejo diferenciado de:   
+    * Manejo diferenciado de:  
+     
         - 404 (ciudad no encontrada)
         - 429 (límite de API)
         - Errores de red

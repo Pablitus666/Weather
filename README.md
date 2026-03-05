@@ -28,6 +28,19 @@ El proyecto ha sido diseñado bajo principios de ingeniería moderna:
 
 ---
 
+## 🚀 Características Nivel Elite
+
+*   ✔ **Aplicación portable:** No requiere instalación (OneFile).
+*   ✔ **Independencia total:** Funciona sin archivos externos obligatorios.
+*   ✔ **Manejo avanzado de errores:** Diagnósticos claros de red y API (401, 404, 429, 500).
+*   ✔ **Sistema de configuración jerárquico:** Prioriza Entorno > .env > Embebido.
+*   ✔ **Compatible con ejecución desde USB:** Rutas dinámicas inteligentes.
+*   ✔ **Caché persistente:** Respuestas instantáneas y ahorro de datos vía `weather_cache.json`.
+*   ✔ **Seguridad:** API Key ofuscada y fragmentada en el binario.
+*   ✔ **Resiliencia:** Timeouts optimizados y validación robusta de respuestas JSON.
+
+---
+
 ## 📷 Previsualización y Estética
 
 <p align="center">

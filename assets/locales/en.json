@@ -13,5 +13,8 @@
     "error.api": "Server error.",
     "error.api_invalid": "Invalid API Key.",
     "error.rate_limit": "API limit reached.",
-    "error.server": "Weather server error."
+    "error.server": "Weather server error.",
+    "error.no_internet": "No Internet connection.",
+    "error.timeout": "Server took too long.",
+    "error.invalid_response": "Invalid server response."
 }

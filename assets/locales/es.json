@@ -13,5 +13,8 @@
     "error.api": "Error de servidor.",
     "error.api_invalid": "API Key inválida o inactiva.",
     "error.rate_limit": "Límite de consultas excedido.",
-    "error.server": "Error en el servidor meteorológico."
+    "error.server": "Error en el servidor meteorológico.",
+    "error.no_internet": "Sin conexión a Internet.",
+    "error.timeout": "El servidor tardó demasiado.",
+    "error.invalid_response": "Respuesta inválida del servidor."
 }

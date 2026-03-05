@@ -1,0 +1,14 @@
+{
+    "title.info": "情報",
+    "info.developed_by": "開発者:\nPablo Téllez A.\n\nTarija - 2026.",
+    "button.close": "閉じる",
+    "ui.search": "天気予報",
+    "ui.enter_city": "都市を入力してください。",
+    "ui.invalid_name": "無効な名前です。",
+    "ui.connecting": "接続中...",
+    "ui.humidity": "湿度",
+    "ui.wind": "風速",
+    "error.city_not_found": "都市が見つかりません。",
+    "error.network": "接続エラー。",
+    "error.api": "サーバーエラー。"
+}

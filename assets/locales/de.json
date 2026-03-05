@@ -1,0 +1,14 @@
+{
+    "title.info": "Information",
+    "info.developed_by": "Entwickelt von:\nPablo Téllez A.\n\nTarija - 2026.",
+    "button.close": "Schließen",
+    "ui.search": "Wetterbericht",
+    "ui.enter_city": "Stadt eingeben.",
+    "ui.invalid_name": "Ungültiger Name.",
+    "ui.connecting": "Verbinden...",
+    "ui.humidity": "Feuchtigkeit",
+    "ui.wind": "Wind",
+    "error.city_not_found": "Stadt nicht gefunden.",
+    "error.network": "Verbindungsfehler.",
+    "error.api": "Serverfehler."
+}

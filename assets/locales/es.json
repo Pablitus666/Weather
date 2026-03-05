@@ -1,0 +1,14 @@
+{
+    "title.info": "Información",
+    "info.developed_by": "Desarrollado por:\nPablo Téllez A.\n\nTarija - 2026.",
+    "button.close": "Cerrar",
+    "ui.search": "Weather Report",
+    "ui.enter_city": "Introduce una ciudad.",
+    "ui.invalid_name": "Nombre no válido.",
+    "ui.connecting": "Conectando...",
+    "ui.humidity": "Humedad",
+    "ui.wind": "Viento",
+    "error.city_not_found": "Ciudad no encontrada.",
+    "error.network": "Error de conexión.",
+    "error.api": "Error de servidor."
+}

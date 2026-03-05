@@ -1,0 +1,14 @@
+{
+    "title.info": "Информация",
+    "info.developed_by": "Разработано:\nPablo Téllez A.\n\nTarija - 2026.",
+    "button.close": "Закрыть",
+    "ui.search": "Прогноз погоды",
+    "ui.enter_city": "Введите город.",
+    "ui.invalid_name": "Неверное имя.",
+    "ui.connecting": "Подключение...",
+    "ui.humidity": "Влажность",
+    "ui.wind": "Ветер",
+    "error.city_not_found": "Город не найден.",
+    "error.network": "Ошибка сети.",
+    "error.api": "Ошибка сервера."
+}

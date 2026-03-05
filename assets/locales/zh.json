@@ -1,0 +1,14 @@
+{
+    "title.info": "信息",
+    "info.developed_by": "开发人员：\nPablo Téllez A.\n\nTarija - 2026.",
+    "button.close": "关闭",
+    "ui.search": "天气报告",
+    "ui.enter_city": "输入城市。",
+    "ui.invalid_name": "名称无效。",
+    "ui.connecting": "连接中...",
+    "ui.humidity": "湿度",
+    "ui.wind": "风速",
+    "error.city_not_found": "未找到城市。",
+    "error.network": "网络错误。",
+    "error.api": "服务器错误。"
+}

@@ -51,21 +51,20 @@ El proyecto ha sido diseñado bajo principios de ingeniería moderna:
 
 🌐 Internacionalización (i18n)
 
-    * Soporte completo para 9 idiomas:<br>
-        - 🇪🇸 Español
-        - 🇺🇸 Inglés
-        - 🇫🇷 Francés
-        - 🇩🇪 Alemán
-        - 🇮🇹 Italiano
-        - 🇵🇹 Portugués
-        - 🇷🇺 Ruso
-        - 🇯🇵 Japonés
-        - 🇨🇳 Chino
+    * **Soporte completo para 9 idiomas:**
+        * 🇪🇸 Español
+        * 🇺🇸 Inglés
+        * 🇫🇷 Francés
+        * 🇩🇪 Alemán
+        * 🇮🇹 Italiano
+        * 🇵🇹 Portugués
+        * 🇷🇺 Ruso
+        * 🇯🇵 Japonés
+        * 🇨🇳 Chino
 
-    * Incluye:<br>
-        - Detección automática del idioma del sistema
-        - Sistema de fallback seguro a inglés
-
+    * **Incluye:**
+        * Detección automática del idioma del sistema
+        * Sistema de fallback seguro a inglés
 🛡️ Seguridad y Distribución Profesional
 
     * API Key desacoplada del ejecutable

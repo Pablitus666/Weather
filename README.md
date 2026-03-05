@@ -49,9 +49,8 @@ El proyecto ha sido diseñado bajo principios de ingeniería moderna:
         - Errores HTTP
         - Fallos de infraestructura
 
-🌐 Internacionalización (i18n)
+🌐 Internacionalización (i18n) Soporte completo para 9 idiomas:
 
-    * **Soporte completo para 9 idiomas:**
         * 🇪🇸 Español
         * 🇺🇸 Inglés
         * 🇫🇷 Francés
@@ -62,9 +61,12 @@ El proyecto ha sido diseñado bajo principios de ingeniería moderna:
         * 🇯🇵 Japonés
         * 🇨🇳 Chino
 
-    * **Incluye:**
+    * Incluye:
+
+
         * Detección automática del idioma del sistema
         * Sistema de fallback seguro a inglés
+
 🛡️ Seguridad y Distribución Profesional
 
     * API Key desacoplada del ejecutable

@@ -1,8 +1,8 @@
-# 📦 WeatherReport v1.0 — High-Performance Async Weather Engine
+# 📦 Weather v1.0 — High-Performance Async Weather Engine
 
 🎉 **Primer Lanzamiento Estable — Edición Profesional de Alto Rendimiento**
 
-Esta versión marca el debut oficial de **WeatherReport Pro**, una solución de escritorio que trasciende el concepto de script meteorológico convencional. Diseñada bajo principios de **Arquitectura Limpia** y **Programación Asíncrona**, esta herramienta ofrece una experiencia de usuario fluida, segura y técnicamente superior.
+Esta versión marca el debut oficial de **Weather**, una solución de escritorio que trasciende el concepto de script meteorológico convencional. Diseñada bajo principios de **Arquitectura Limpia** y **Programación Asíncrona**, esta herramienta ofrece una experiencia de usuario fluida, segura y técnicamente superior.
 
 ---
 
@@ -25,7 +25,7 @@ Este lanzamiento representa la culminación de un proceso de ingeniería senior,
 
 Los componentes esenciales para una experiencia segura se encuentran en la sección de **Assets**:
 
-### 🌦️ WeatherReport (`WeatherReport.exe`) 🏃
+### 🌦️ Weather (`Weather.exe`) 🏃
 *   **Estado:** Versión Final Estable.
 *   **Uso:** Ejecutable autónomo (Portable). Descargar y ejecutar.
 *   **Ventaja:** No requiere instalación ni dependencias externas.
@@ -50,8 +50,8 @@ Los componentes esenciales para una experiencia segura se encuentran en la secci
 Software Developer  
 📍 Bolivia 🇧🇴  
 
-© 2026 — WeatherReport Professional Tooling
+© 2026 — Weather Professional Tooling
 
 ---
 
-📥 **Descarga el ejecutable `WeatherReport.exe` en la sección Assets situada al final de esta página.**
+📥 **Descarga el ejecutable `Weather.exe` en la sección Assets situada al final de esta página.**

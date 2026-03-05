@@ -1,4 +1,4 @@
-# 🌦️ WeatherReport (Windows) — Professional Weather & Forecast Tool
+# 🌦️ Weather (Windows) — Professional Weather & Forecast Tool
 
 Motor Meteorológico Asíncrono con Arquitectura Limpia y Distribución Firmada Digitalmente
 
@@ -15,7 +15,7 @@ Motor Meteorológico Asíncrono con Arquitectura Limpia y Distribución Firmada 
 ---
 ## 🧭 Descripción General
 
-**WeatherReport Pro** es una aplicación de escritorio desarrollada en Python que proporciona datos meteorológicos en tiempo real y pronósticos extendidos de 5 días mediante la API de **OpenWeatherMap**
+**Weather** es una aplicación de escritorio desarrollada en Python que proporciona datos meteorológicos en tiempo real y pronósticos extendidos de 5 días mediante la API de **OpenWeatherMap**
 
 El proyecto ha sido diseñado bajo principios de ingeniería moderna:
 
@@ -32,10 +32,10 @@ Es una aplicación de escritorio lista para distribución profesional.
 
 ## 📷 Previsualización y Estética
 
-La interfaz de WeatherReport ha sido meticulosamente diseñada con una paleta de colores **Deep Teal** (#0B3C49) y **Dark Slate** (#103C48), garantizando legibilidad y confort visual.
+La interfaz de Weather ha sido meticulosamente diseñada con una paleta de colores **Deep Teal** (#0B3C49) y **Dark Slate** (#103C48), garantizando legibilidad y confort visual.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Pablitus666/Weather/main/images2/Preview.png" alt="WeatherReport Preview" width="800"/>
+  <img src="https://raw.githubusercontent.com/Pablitus666/Weather/main/images2/Preview.png" alt="Weather Preview" width="800"/>
 </p>
 
 ---
@@ -55,20 +55,20 @@ La interfaz de WeatherReport ha sido meticulosamente diseñada con una paleta de
 
 🌐 Internacionalización (i18n)
 
-Soporte completo para 9 idiomas:
-    * 🇪🇸 Español
-    * 🇺🇸 Inglés
-    * 🇫🇷 Francés
-    * 🇩🇪 Alemán
-    * 🇮🇹 Italiano
-    * 🇵🇹 Portugués
-    * 🇷🇺 Ruso
-    * 🇯🇵 Japonés
-    * 🇨🇳 Chino
+    * Soporte completo para 9 idiomas:
+        - 🇪🇸 Español
+        - 🇺🇸 Inglés
+        - 🇫🇷 Francés
+        - 🇩🇪 Alemán
+        - 🇮🇹 Italiano
+        - 🇵🇹 Portugués
+        - 🇷🇺 Ruso
+        - 🇯🇵 Japonés
+        - 🇨🇳 Chino
 
-Incluye:
-    * Detección automática del idioma del sistema
-    * Sistema de fallback seguro a inglés
+    * Incluye:
+        - Detección automática del idioma del sistema
+        - Sistema de fallback seguro a inglés
 
 🛡️ Seguridad y Distribución Profesional
 
@@ -82,7 +82,7 @@ Incluye:
 
 ## 🏛️ Arquitectura del Proyecto
 
-WeatherReport implementa un patrón **MVC (Modelo-Vista-Controlador)** desacoplado, facilitando la escalabilidad y el mantenimiento:
+Weather implementa un patrón **MVC (Modelo-Vista-Controlador)** desacoplado, facilitando la escalabilidad y el mantenimiento:
 
 *   **Capa de Servicios (`services/`):** Orquestación de peticiones asíncronas a la API REST de OpenWeatherMap.
 *   **Capa de Negocio (`core/`):** Gestión de estados, lógica de conversión de unidades y sistema de internacionalización.
@@ -90,7 +90,7 @@ WeatherReport implementa un patrón **MVC (Modelo-Vista-Controlador)** desacopla
 *   **Gestión de Recursos:** Sistema de caché LRU para activos gráficos y motor de escalado dinámico para fuentes TTF.
 ---
 ```
-WeatherReport/
+Weather/
 │
 ├── app/        → Configuración y constantes
 ├── core/       → Modelos, lógica de negocio, i18n, recursos
@@ -128,11 +128,11 @@ WeatherReport/
 
 ## 🚀 Descarga y Uso 
 
-WeatherReport se distribuye como un binario único (OneFile), eliminando la necesidad de instalaciones complejas.
+Weather se distribuye como un binario único (OneFile), eliminando la necesidad de instalaciones complejas.
 
 ### 1. Obtención del Software
 1.  Accede a la sección oficial de [**Releases**](https://github.com/Pablitus666/Weather/releases).
-2.  Descarga el archivo `WeatherReport.exe` (Versión Portable).
+2.  Descarga el archivo `Weather.exe` (Versión Portable).
 3.  *(Opcional)* Descarga el certificado público para verificar la autenticidad.
 
 ### 2. Ejecución y Configuración
@@ -153,7 +153,7 @@ OPENWEATHER_API_KEY=TU_API_KEY
 
 ## 🛡️ Verificación de Firma Digital
 
-    * Clic derecho sobre WeatherReport.exe
+    * Clic derecho sobre Weather.exe
     * Propiedades
     * Pestaña “Firmas digitales”
     * Verificar que el estado sea “Firma válida”
@@ -218,7 +218,7 @@ Software Developer
 📍 Bolivia 🇧🇴  
 📧 [pharmakoz@gmail.com](mailto:pharmakoz@gmail.com) 
 
-© 2026 — WeatherReport Tool
+© 2026 — Weather Tool
 
 ---
 

@@ -2,6 +2,8 @@ import tkinter as tk
 from customtkinter import CTk, CTkEntry
 import asyncio
 import threading
+import os
+import ctypes
 
 from app.constants import *
 from core.resources import get_resource_path
@@ -19,6 +21,13 @@ class WeatherApp(CTk):
     def __init__(self):
         super().__init__()
         
+        # FORZAR ICONO EN BARRA DE TAREAS (Windows)
+        try:
+            myappid = 'WalterTellez.WeatherApp.1.0'
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+        except:
+            pass
+            
         load_i18n()
         self.settings = SettingsManager()
         
@@ -31,12 +40,16 @@ class WeatherApp(CTk):
         self.config(bg=COLOR_BG)
         self.resizable(False, False)
         
+        self.image_manager = ImageManager(self)
+        
+        # Cargar icono de ventana de forma nativa (iconbitmap es lo mejor para .ico en Windows)
         try:
-            self.iconbitmap(get_resource_path(IMAGE_LOGO_ICO))
+            icon_path = get_resource_path(IMAGE_LOGO_ICO)
+            if os.path.exists(icon_path):
+                self.iconbitmap(icon_path)
         except:
             pass
 
-        self.image_manager = ImageManager(self)
         self.weather_service = WeatherService()
         self.is_fetching = False
         self.search_done = False

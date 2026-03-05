@@ -26,13 +26,9 @@ El proyecto ha sido diseñado bajo principios de ingeniería moderna:
     * Sistema de persistencia multiplataforma
     * Distribución portable firmada digitalmente
 
-No es un simple script meteorológico.
-Es una aplicación de escritorio lista para distribución profesional.
 ---
 
 ## 📷 Previsualización y Estética
-
-La interfaz de Weather ha sido meticulosamente diseñada con una paleta de colores **Deep Teal** (#0B3C49) y **Dark Slate** (#103C48), garantizando legibilidad y confort visual.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Pablitus666/Weather/main/images2/Preview.png" alt="Weather Preview" width="800"/>
@@ -53,7 +49,7 @@ La interfaz de Weather ha sido meticulosamente diseñada con una paleta de color
         - Errores HTTP
         - Fallos de infraestructura
 
-🌐 Internacionalización (i18n)
+🌐 Internacionalización (i18n)\
 
     * Soporte completo para 9 idiomas:
         - 🇪🇸 Español
@@ -66,11 +62,11 @@ La interfaz de Weather ha sido meticulosamente diseñada con una paleta de color
         - 🇯🇵 Japonés
         - 🇨🇳 Chino
 
-    * Incluye:
+    * Incluye:\
         - Detección automática del idioma del sistema
         - Sistema de fallback seguro a inglés
 
-🛡️ Seguridad y Distribución Profesional
+🛡️ Seguridad y Distribución Profesional\
 
     * API Key desacoplada del ejecutable
     * Variables de entorno priorizadas sobre .env

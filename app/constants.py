@@ -11,7 +11,7 @@ FONT_INFO = ("Comic Sans MS", 14, "bold")
 FONT_BUTTON = ("Comic Sans MS", 12, "bold")
 
 # Rutas de Imágenes
-IMAGE_LOGO_ICO = "assets/images/logo.ico"
+IMAGE_LOGO_ICO = "assets/images/loguito.ico"
 IMAGE_LOGO_PNG = "assets/images/logo.png"
 IMAGE_ROBOT = "assets/images/robot.png"
 IMAGE_BOTON = "assets/images/boton.png"

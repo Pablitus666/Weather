@@ -20,6 +20,8 @@ a = Analysis(
     binaries=[],
     datas=[
         ('assets', 'assets'),
+        ('assets/images/icon.ico', 'assets/images'),
+        ('assets/images/loguito.ico', 'assets/images'),
     ],
     hiddenimports=[
         'PIL._tkinter_finder',

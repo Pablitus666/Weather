@@ -63,7 +63,6 @@ El proyecto ha sido diseñado bajo principios de ingeniería moderna:
 
     * Incluye:
 
-
         * Detección automática del idioma del sistema
         * Sistema de fallback seguro a inglés
 

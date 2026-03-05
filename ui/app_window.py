@@ -48,7 +48,10 @@ class WeatherApp(CTk):
         self._setup_ui()
         self._centrar_ventana()
         
-        # ELIMINADO: Ya no cargamos la última ciudad al arrancar para un inicio instantáneo.
+        # Verificación inicial de API_KEY
+        from app.config import API_KEY
+        if not API_KEY:
+            self.after(500, lambda: self._display_message(_("error.api")))
 
     def _run_async_loop(self):
         asyncio.set_event_loop(self.loop)

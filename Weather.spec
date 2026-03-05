@@ -1,8 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 """
-WeatherReport - OneFile Portable Build
-Genera un único .exe 100% embebido con todos los recursos incluidos.
+Weather - OneFile Portable Build
+Genera un único .exe llamado 'Weather.exe' 100% embebido.
 Optimizado para distribución profesional.
 """
 
@@ -55,7 +55,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='WeatherReport',
+    name='Weather',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -68,6 +68,6 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    # RUTA DIRECTA AL ICONO OPTIMIZADO
+    # ICONO EMBEBIDO
     icon='assets\\images\\icon.ico',
 )

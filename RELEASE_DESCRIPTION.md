@@ -1,12 +1,12 @@
-# 📦 Weather v1.0 — High-Performance Async Weather Engine
+# 📦 Weather v2.0.0 — Major Architecture Upgrade
 
-🎉 **Primer Lanzamiento Estable — Edición Profesional de Alto Rendimiento**
+🎉 **Segundo Lanzamiento Estable — Edición Profesional de Alto Rendimiento**
 
 Esta versión marca el debut oficial de **Weather**, una solución de escritorio que trasciende el concepto de script meteorológico convencional. Diseñada bajo principios de **Arquitectura Limpia** y **Programación Asíncrona**, esta herramienta ofrece una experiencia de usuario fluida, segura y técnicamente superior.
 
 ---
 
-## 🔧 Innovaciones Técnicas en v1.0
+## 🔧 Innovaciones Técnicas en v2.0.0
 
 Este lanzamiento representa la culminación de un proceso de ingeniería senior, destacando:
 

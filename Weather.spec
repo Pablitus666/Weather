@@ -1,22 +1,22 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+import os
+from pathlib import Path
+
 """
-Weather - OneFile Portable Build
-Genera un único .exe llamado 'Weather.exe' 100% embebido.
-Optimizado para distribución profesional.
+Weather - Build Profesional Optimizado
+Genera un único .exe llamado 'Weather.exe' con icono embebido de alta resolución.
 """
 
-from pathlib import Path
+# Obtenemos la ruta absoluta del proyecto para evitar fallos de rutas relativas en el icono
+project_root = os.path.abspath(os.getcwd())
+icon_path = os.path.join(project_root, 'assets', 'images', 'icon.ico')
 
 block_cipher = None
 
-# =========================
-# ANALYSIS
-# =========================
-
 a = Analysis(
     ['run.py'],
-    pathex=[],
+    pathex=[project_root],
     binaries=[],
     datas=[
         ('assets', 'assets'),
@@ -34,19 +34,11 @@ a = Analysis(
     noarchive=False,
 )
 
-# =========================
-# PYZ (Python Archive)
-# =========================
-
 pyz = PYZ(
     a.pure,
     a.zipped_data,
     cipher=block_cipher
 )
-
-# =========================
-# ONE FILE EXECUTABLE
-# =========================
 
 exe = EXE(
     pyz,
@@ -68,6 +60,6 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    # ICONO EMBEBIDO
-    icon='assets\\images\\icon.ico',
+    # RUTA ABSOLUTA FORZADA PARA EL ICONO DEL EXPLORADOR
+    icon=icon_path,
 )

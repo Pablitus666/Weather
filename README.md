@@ -215,7 +215,8 @@ Weather representa la evolución profesional de un script experimental previo. L
 
 **Walter Pablo Téllez Ayala**  
 Software Developer  
-📍 Bolivia 🇧🇴  
+
+📍 Tarija, Bolivia <img src="https://flagcdn.com/w20/bo.png" width="20"/> <br>
 📧 [pharmakoz@gmail.com](mailto:pharmakoz@gmail.com) 
 
 © 2026 — Weather Tool

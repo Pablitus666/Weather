@@ -10,5 +10,8 @@
     "ui.wind": "Viento",
     "error.city_not_found": "Ciudad no encontrada.",
     "error.network": "Error de conexión.",
-    "error.api": "Error de servidor."
+    "error.api": "Error de servidor.",
+    "error.api_invalid": "API Key inválida o inactiva.",
+    "error.rate_limit": "Límite de consultas excedido.",
+    "error.server": "Error en el servidor meteorológico."
 }

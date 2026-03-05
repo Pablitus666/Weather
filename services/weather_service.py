@@ -13,6 +13,8 @@ class WeatherService:
     - Caché en memoria.
     """
     def __init__(self):
+        # Cargamos API_KEY de forma dinámica para reflejar cambios en config.py
+        from app.config import API_KEY
         self.params = {
             "APPID": API_KEY,
             "units": "metric",
@@ -42,19 +44,28 @@ class WeatherService:
         # 2. Red
         try:
             logger.info(f"Consultando red para: {city_name}")
+            
+            # Recargamos la clave en cada consulta por si el usuario añadió un .env dinámicamente
+            from app.config import API_KEY
             params = self.params.copy()
+            params["APPID"] = API_KEY
             params["q"] = city_name
             
             # Usamos el cliente persistente
             response = await self.client.get(BASE_URL, params=params)
             
-            if response.status_code == 404:
+            # FASE 2: Manejo de Errores HTTP Pro
+            if response.status_code == 401:
+                logger.error("API Key inválida o no activa.")
+                raise APIError("error.api_invalid") # Usaremos claves de i18n
+            elif response.status_code == 404:
                 raise CityNotFoundError(f"Ciudad no encontrada: {city_name}")
-            elif response.status_code == 401:
-                raise APIError("Credenciales de API inválidas.")
             elif response.status_code == 429:
                 logger.warning("Rate Limit Exceeded (429)")
-                raise APIError("Límite de peticiones excedido. Intente más tarde.")
+                raise APIError("error.rate_limit")
+            elif response.status_code >= 500:
+                logger.error(f"Error servidor OpenWeather: {response.status_code}")
+                raise APIError("error.server")
             
             response.raise_for_status()
             data_json = response.json()

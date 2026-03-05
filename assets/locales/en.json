@@ -9,6 +9,9 @@
     "ui.humidity": "Humidity",
     "ui.wind": "Wind",
     "error.city_not_found": "City not found.",
-    "error.network": "Network error.",
-    "error.api": "Server error."
+    "error.network": "Connection error.",
+    "error.api": "Server error.",
+    "error.api_invalid": "Invalid API Key.",
+    "error.rate_limit": "API limit reached.",
+    "error.server": "Weather server error."
 }
